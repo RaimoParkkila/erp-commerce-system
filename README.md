@@ -1,88 +1,125 @@
-\# ERP Commerce Platform
+# ERP Commerce Platform
 
+A full-stack ERP + commerce system that simulates real-world retail and wholesale business operations, including inventory management, customer handling, billing, and order processing.
 
+This project demonstrates end-to-end system design, backend architecture, and mobile-first business application development.
 
-Full-stack ERP system combining commerce, inventory, and billing in one unified workflow.
+---
 
+## 🎯 Purpose
 
+The goal of this project is to showcase the ability to design and build a scalable ERP-style system that integrates core business operations into a unified workflow:
 
-\## 🚀 Features
+- Retail & wholesale operations
+- Inventory control
+- Customer and employee management
+- Billing and invoice generation
 
+---
 
+## 🚀 Core Features
 
-\- 🛒 Product \& cart management
+### 🛒 Commerce System
+- Product management
+- Shopping cart flow
+- Order handling
 
-\- 👥 Customer management (CRUD)
+### 👥 CRM (Customer Management)
+- Create / Read / Update / Delete customers
+- Customer tracking system
 
-\- 👨‍💼 Employee management (CRUD)
+### 👨‍💼 Employee Management
+- Employee CRUD operations
+- Role-based structure (basic implementation)
 
-\- 📦 Inventory / warehouse management
+### 📦 Inventory System
+- Warehouse / storage management
+- Stock tracking
 
-\- 🏭 Wholesale module
+### 🏭 Wholesale Module
+- Bulk operations
+- Wholesale workflow simulation
 
-\- 🧾 Invoice generation and calculation
+### 🧾 Billing System
+- Invoice generation
+- Order-to-billing logic
 
+---
 
+## 📸 System Overview (Screenshots)
 
-\## 🧱 Tech Stack
+### Admin Dashboard
+![Admin](./assets/Admin.jpg)
+![Admin2](./assets/Admin2.jpg)
 
+### Shopping & Cart Flow
+![Cart](./assets/Cart.jpg)
+![Cart3](./assets/Cart3.jpg)
 
+### Customer Management
+![Customers](./assets/Customers.jpg)
 
-\- React Native (mobile app)
+### Employee Management
+![Employees](./assets/Employees.jpg)
 
-\- Node.js / Express (backend)
+### Inventory / Warehouse
+![Storage](./assets/Storage2.jpg)
+![Storage](./assets/Storage3.jpg)
 
-\- Supabase (database)
+### Wholesale Operations
+![Wholesale](./assets/Wholesales2.jpg)
 
+### Billing / Invoices
+![Invoice](./assets/Invoice2.jpg)
 
+### System Entry
+![Main](./assets/Index.jpg)
 
-\## 📂 Project Structure
+---
 
+## 🧱 Tech Stack
 
+- React Native (Mobile frontend)
+- Node.js / Express (Backend API)
+- Supabase (Database & backend services)
 
-/backend → API and business logic  
+---
 
-/mobile → React Native application  
+## 🏗️ Architecture
 
+The system follows a modular architecture:
 
+- **Backend layer** → Business logic, APIs, data handling
+- **Mobile layer** → User interface for ERP operations
+- **Database layer** → Managed via Supabase
 
-\## ⚙️ Setup
+---
 
+## 📌 Project Status
 
+Core ERP modules implemented and functional.  
+Ongoing improvements focus on UI consistency, scalability, and optimization.
 
-\### Backend
+---
 
+## 💡 Key Highlights
 
+- Full ERP workflow simulation (not just CRUD demo)
+- Multi-module business system architecture
+- Realistic retail + wholesale scenario implementation
+- Mobile-first ERP interface
 
-cd backend
+---
 
-npm install
+## 👨‍💻 About This Project
 
-npm start
+This project was built as a full-stack portfolio system to demonstrate practical software engineering skills in business applications, including system design, backend integration, and mobile development.
 
+---
 
+## 📍 Notes
 
-
-
-\## 📌 Status
-
-
-
-
-
-\## 📌 Status
-
-
-
-Work in progress — core ERP features implemented.
-
-
-
-\## 🎯 Goal
-
-
-
-To build a scalable ERP-style system integrating commerce and business operations into a single platform.
+This is a learning + portfolio project, continuously evolving with additional modules and improvements.
 
 
 
